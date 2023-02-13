@@ -1,4 +1,4 @@
-# G-Lab
+# Marzbo
 
 <p align="center"><a href="https://www.k-hgc.com" target="_blank"><img src="https://www.k-hgc.com/img/logo/khgc-logo-black.svg" width="400"></a></p>
 
