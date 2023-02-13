@@ -25,40 +25,40 @@ class UserSeeder extends Seeder
         $superAdmin = User::withoutEvents(function () {
             return User::create([
                 'name'      => 'Super Admin',
-                'email'     => 'superadmin@glab.vn',
-                'password'  => Hash::make('SuperAdmin@glab99')
+                'email'     => 'superadmin@marzbo.vn',
+                'password'  => Hash::make('SuperAdmin@marzbo99')
             ]);
         });
 
         $admin = User::withoutEvents(function () {
             return User::create([
                 'name'      => 'Admin',
-                'email'     => 'admin@glab.vn',
-                'password'  => Hash::make('Admin@glab99')
+                'email'     => 'admin@marzbo.vn',
+                'password'  => Hash::make('Admin@marzbo99')
             ]);
         });
 
         $staff = User::withoutEvents(function () {
             return User::create([
                 'name'      => 'Staff',
-                'email'     => 'staff@glab.vn',
-                'password'  => Hash::make('Staff@glab99')
+                'email'     => 'staff@marzbo.vn',
+                'password'  => Hash::make('Staff@marzbo99')
             ]);
         });
 
         $customer = User::withoutEvents(function () {
             return User::create([
                 'name'      => 'Customer',
-                'email'     => 'customer@glab.com',
-                'password'  => Hash::make('Customer@glab99')
+                'email'     => 'customer@marzbo.com',
+                'password'  => Hash::make('Customer@marzbo99')
             ]);
         });
 
         $supplier = User::withoutEvents(function () {
             return User::create([
                 'name'      => 'Supplier',
-                'email'     => 'supplier@glab.com',
-                'password'  => Hash::make('Supplier@glab99')
+                'email'     => 'supplier@marzbo.com',
+                'password'  => Hash::make('Supplier@marzbo99')
             ]);
         });
 
