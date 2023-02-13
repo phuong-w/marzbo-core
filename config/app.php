@@ -195,6 +195,7 @@ return [
         App\Providers\EventServiceProvider::class,
         App\Providers\RepositoryServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
+        App\Providers\ViewComposerProvider::class,
 
     ],
 
@@ -210,7 +211,7 @@ return [
     */
 
     'aliases' => Facade::defaultAliases()->merge([
-        // 'ExampleClass' => App\Example\ExampleClass::class,
+        'Acl' => App\Acl\Acl::class,
     ])->toArray(),
 
 ];

@@ -16,6 +16,7 @@ class RepositoryServiceProvider extends ServiceProvider
     public function register()
     {
         $this->app->singleton(UserRepositoryInterface::class, UserRepository::class);
+        $this->app->singleton(RoleRepositoryInterface::class, RoleRepository::class);
     }
 
     /**
